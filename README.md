@@ -1,12 +1,58 @@
-# React + Vite
+AI-Powered Image Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+AI-Powered Image Finder is a React-based web application that allows users to search and browse high-quality images using the Pixabay API. With a modern and responsive UI, users can enter a search term, fetch images in real-time, and experience a smooth interface with interactive components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+✅ Real-time Image Search using the Pixabay API✅ Loading Indicator for a seamless experience✅ Styled Input Field with smooth interactions✅ Modern UI Design using Tailwind CSS✅ Error Handling for reliable performance
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/ai-image-finder.git
+cd ai-image-finder
+
+Install dependencies:
+
+npm install
+
+Create a .env file and add your Pixabay API key:
+
+VITE_API_KEY=your_pixabay_api_key
+
+Start the development server:
+
+npm run dev
+
+Usage
+
+Enter a search term in the input field.
+
+Click the search button or press Enter.
+
+View high-quality images fetched from the Pixabay API.
+
+Technologies Used
+
+React.js - Frontend framework
+
+Tailwind CSS - Modern styling
+
+Pixabay API - Fetching images
+
+Axios - Handling API requests
+
+Vite - Development environment
+
+Contributing
+
+Feel free to contribute! Fork the repository, make your changes, and submit a pull request.
+
+License
+
+This project is licensed under the MIT License.
+
+💡 Happy Coding! 🚀
